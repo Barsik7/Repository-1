@@ -1,18 +1,18 @@
 html,body {
     width: 100%;
-    height: 250%;
+    height: 200%;
     margin: 0;
 }
 
 container {
     width: 100%;
-    height: 250%;
+    height: 200%;
     background-color: #FFFFFF;
 }
 
 header {
     width: 100%;
-    height: 13%;
+    height: 20%;
     background-color: #F7FAFC;
     position: relative;
     top: 0;
@@ -26,44 +26,8 @@ logo {
     height: 44px;
     left: 350px;
     top: 44px;
-}
-
-vector1 {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-
-vector2 {
-    position: absolute;
-    left: 12.5%;
-    right: 62.5%;
-    top: 50%;
-    bottom: 16.67%;
-    border: 2.75px solid #03A9F4;
-    border-radius: 2px;
-}
-
-vector3 {
-    position: absolute;
-    left: 37.5%;
-    right: 37.5%;
-    top: 33.33%;
-    bottom: 16.67%;
-    border: 2.75px solid #03A9F4;
-    border-radius: 2px;
-}
-
-vector4 {
-    position: absolute;
-    left: 62.5%;
-    right: 12.5%;
-    top: 16.67%;
-    bottom: 16.67%;
-    border: 2.75px solid #03A9F4;
-    border-radius: 2px;
+    background-image: url("Starter-logo-large.png");
+    background-size: contain;
 }
 
 p.nav {
@@ -107,25 +71,25 @@ a {
     font-weight: 600;
 }
 
-header h1:first-of-type {
+headerText {
     position: relative;
-    height: 48px;
-    width: 653px;
-    left: 490px;
-    top: 40px;
+    display: flex;
+    width: 100%;
+    height: 55%;
+    top: 5%;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
+
+header h1:first-of-type {
     font-family: 'Roboto';
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    line-height: 56px;
-
-
 }
 
 h1:nth-of-type(2) {
-    position: relative;
-    top: 30px;
-    left: 680px;
     font-family: 'Roboto';
     font-size: 48px;
     font-weight: 900;
@@ -133,24 +97,20 @@ h1:nth-of-type(2) {
 }
 
 p.description {
-    position: relative;
-    width: 547px;
-    left: 530px;
-    top: 40px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 400;
     color: #718094;
 }
 
-block {
-    display: flex;
+button {
     position: relative;
+    display: flex;
     width: 35%;
-    height: 10%;
-    top: 60px;
-    left: 34%;
+    height: 20%;
+    top: 10%;
     border-radius: 5px;
+    border: none;
     background-color: #03A9F4;
     justify-content: center;
     align-items: center;
@@ -168,10 +128,11 @@ article {
     position: relative;
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 6%;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 article h1 {
@@ -186,6 +147,108 @@ article p {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
-
-
+    color: #718096;
 }
+
+content {
+    position: relative;
+    display: flex;
+    width: 70%;
+    height: 50%;
+    top: 3%;
+    left: 15%;
+    line-height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+content h2 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+content p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #718096;
+}
+
+text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+image1 {
+    position: relative;
+    height: 306px;
+    width: 374px;
+    background-image: url("Feature1 SVG.png");
+    background-size: cover;
+}
+
+image2 {
+    position: relative;
+    margin-top: 10%;
+    height: 326px;
+    width: 378px;
+    background-image: url("Feature2 SVG.png");
+    background-size: cover;
+}
+
+image3 {
+    position: relative;
+    margin-top: 10%;
+    height: 304px;
+    width: 415px;
+    background-image: url("Feature3 SVG.png");
+    background-size: cover;
+}
+
+cta {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    background-color: #E6F6FE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    border-radius: 10px;
+}
+
+cta h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+}
+
+cta h1:last-of-type {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+button2 {
+    display: flex;
+    width: 20%;
+    height: 25%;
+    top: 10%;
+    border-radius: 5px;
+    background-color: #03A9F4;
+    justify-content: center;
+    align-items: center;
+}
+
