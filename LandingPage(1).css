@@ -6,24 +6,26 @@ html,body {
 
 container {
     width: 100%;
-    height: 185%;
     background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     width: 100%;
     height: 22%;
-    background-color: #F7FAFC;
     position: relative;
     top: 0;
     left: 0;
+    background-color: #F7FAFC;
     overflow: hidden;
 }
 
 nav {
     width: 100%;
-    height: 25%;
-    position: relative;
+    height: 5%;
+    position: absolute;
+    top: 0;
+    padding: 50px 1150px;
 }
 
 logo {
@@ -32,49 +34,31 @@ logo {
     width: 44px;
     height: 44px;
     left: 350px;
-    top: 30px;
     background-image: url("Starter-logo-large.png");
 }
 
-p.nav {
+p.logo {
     position: relative;
     height: 44px;
     width: 100px;
-    margin: 0;
-    left: 400px;
-    top: -5px;
-    border-radius: 0;
-    font-family: 'Roboto';
+    left: 45px;
+    top: 5px;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 a.nav {
-    position: relative;
-    height: 23px;
-    width: 60px;
-    left: 1100px;
-    top: -35px;
-    border-radius: 0;
     text-decoration: none;
     color: #000000;
 }
 
-a.nav:last-of-type {
-    position: relative;
-    height: 23px;
-    width: 60px;
-    left: 1150px;
-    top: -35px;
-    border-radius: 0;
-    text-decoration: none;
+a.nav:nth-child(2) {
+    margin-left: 30px;
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 headerText {
@@ -82,28 +66,24 @@ headerText {
     display: flex;
     width: 100%;
     height: 60%;
-    top: 5%;
+    top: 100px;
     flex-direction: column;
     align-items: center;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 header h1:first-of-type {
-    font-family: 'Roboto';
     font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h1:nth-of-type(2) {
-    font-family: 'Roboto';
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     color: #03A9F4;
 }
 
 p.description {
-    font-family: 'Roboto';
     font-size: 24px;
     font-weight: 400;
     color: #718094;
@@ -111,20 +91,16 @@ p.description {
 
 button {
     position: relative;
-    display: flex;
     width: 35%;
-    height: 25%;
+    height: 20%;
     top: 10%;
     border-radius: 5px;
     border: none;
     background-color: #03A9F4;
-    justify-content: center;
-    align-items: center;
 }
 
 a.button {
     text-decoration: none;
-    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
@@ -143,14 +119,12 @@ article {
 
 article h1 {
     position: relative;
-    font-family: 'Roboto';
     font-size: 36px;
     font-weight: 900;
 }
 
 article p {
     position: relative;
-    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
     color: #718096;
@@ -172,14 +146,12 @@ content {
 }
 
 content h2 {
-    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
     color: #000000;
 }
 
 content p {
-    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
     color: #718096;
@@ -235,15 +207,13 @@ cta {
 }
 
 cta h1 {
-    font-family: 'Roboto';
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 cta h1:last-of-type {
-    font-family: 'Roboto';
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 28px;
 }
 
@@ -283,9 +253,8 @@ footer h1 {
     display: block;
     top: 4%;
     left: 49%;
-    font-family: 'Roboto';
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 500;
 
 }
 
