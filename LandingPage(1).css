@@ -117,7 +117,7 @@ article {
     text-align: center;
 }
 
-article h1 {
+article h2 {
     position: relative;
     font-size: 36px;
     font-weight: 900;
@@ -206,15 +206,18 @@ cta {
     border-radius: 10px;
 }
 
-cta h1 {
+cta h3:first-of-type {
+    margin-top: 15px;
     font-size: 24px;
     font-weight: 500;
 }
 
-cta h1:last-of-type {
+cta h3:last-of-type {
+    margin-top: 0;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
+    color: #03A9F4;
 }
 
 button2 {
@@ -248,10 +251,10 @@ logo2 {
     background-image: url("Starter-logo-large.png");
 }
 
-footer h1 {
+footer p {
     position: relative;
     display: block;
-    top: 4%;
+    top: 2%;
     left: 49%;
     font-size: 20px;
     font-weight: 500;
