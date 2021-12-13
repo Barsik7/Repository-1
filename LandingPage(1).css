@@ -167,16 +167,6 @@ article p {
     color: #03A9F4;
 }
 
-button2 {
-    display: flex;
-    width: 200px;
-    height: 25%;
-    border-radius: 5px;
-    background-color: #03A9F4;
-    justify-content: center;
-    align-items: center;
-}
-
 footer {
     width: 100%;
     position: relative;
